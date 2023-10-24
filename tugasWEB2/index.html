@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WahyuSports.com</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><img style="border-radius: 0px 30px 0px 30px;" src="Wahyu.png" alt="Wahyu" width="50"></td>
+            <td><h3>WahyuSports.com</h3></td>
+        </tr>
+    </table>
+
+    <form action="transaksi.html" method="post">
+
+    <fieldset style="text-align: center;">
+    <nav>    
+        <p>
+            HOME |
+            Generate Link |
+            Transaction History |
+            Policy |
+            Logout
+        </p>
+    </nav>    
+    </fieldset>
+
+    <table>
+        <tr>
+            <td>
+                <img style="border: 5px solid black; border-radius: 10px;" src="MUfc.jpg" alt="Jersey" width="200">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <table>
+        <tr>
+            <td>Title Here :</td>
+            <td>
+                <input type="text" name="customername">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Description :</td>
+            <td>
+                <textarea name="description" cols="30" rows="8"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Account Number :</td>
+            <td>
+                <input type="number" name="accountnumber">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Bank :</td>
+            <td>
+                <select name="Bank">
+                    <option value="Pilih">Pilih</option>
+                    <option value="BCA">BCA</option>
+                    <option value="Mandiri">Mandiri</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Account Holder :</td>
+            <td>
+                <input type="text" name="accountholder">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Transaction :</td>
+            <td>
+                <select name="Transaction">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td> </td>
+            <td>
+                *if the transaction is for 3 person, choose 3 from the drop down list
+                <br>
+                <input type="checkbox" name="send[]" value="Send to Monile Phone">Send to Mobile Phone
+                <br>
+                <input type="checkbox" name="send[]" value="Send to Email">Send to Email
+            </td>
+        </tr>
+
+        <tr>
+            <td>Send to Mobile Phone :</td>
+            <td>
+                <input type="number" name="number mobile phone">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Send to Email :</td>
+            <td>
+                <input type="text" name="your Email">
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <button type="submit">Buy</button>
+    <br>
+
+    </form>
+</body>
+</html>
