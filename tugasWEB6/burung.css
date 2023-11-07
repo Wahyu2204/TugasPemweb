@@ -1,0 +1,75 @@
+body {
+    font-family: Arial;
+    background-color: burlywood;
+}
+#header {
+    background-color: blueviolet;
+    padding-bottom: 10px ;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+blockquote {
+    text-align: center;
+    background-color: aqua;
+    border: 1px dotted red;
+    margin: auto;
+    font-weight: bold;
+    width: 55%;
+    padding: 0px 60px;
+}
+
+.list li {
+    display: inline;
+}
+
+.list {
+    text-align: center;
+}
+
+li {
+    justify-content: center;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar img {
+    width: 15%;
+}
+
+.LatterB {
+    font-size: 40px;
+    color: blue;
+}
+
+.koleksi {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.koleksi img {
+    width: 23%;
+}
+
+.promo {
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+    margin-inline: auto;
+    width: fit-content;
+}
+
+.harga li {
+    display: inline;
+}
+
+.promo li {
+    margin: auto;
+    width: fit-content;
+}
